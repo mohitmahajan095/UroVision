@@ -2,6 +2,7 @@
 
 **UroVision** is an advanced deep learning-based system designed to detect kidney stones from medical images. Built using the **YOLOv8n** object detection model and deployed with **Streamlit**, this project aims to provide an efficient, real-time diagnostic tool for healthcare professionals.
 
+**Link:** https://urovision.streamlit.app/
 ---
 
 ## Table of Contents  
