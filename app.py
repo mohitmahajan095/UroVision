@@ -14,7 +14,7 @@ def detect_fractures(image_path, save_dir, image_name):
     results = model(image_path, save=True, save_dir=save_dir, name=image_name, show_labels=False)
     return results
 
-st.title("Kidney Stone Detection Model")
+st.title("UroVision: Kidney Stone Detection")
 st.write("Upload a medical image (MRI/CT Scan) of a kidney.")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
