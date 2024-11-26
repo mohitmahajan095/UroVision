@@ -10,7 +10,7 @@ import shutil
 PATH = os.path.dirname(__file__)
 model = YOLO(PATH + "/Model/weights/last.pt")
 
-def detect_fractures(image_path, save_dir, image_name):
+def detect(image_path, save_dir, image_name):
     results = model(image_path, save=True, save_dir=save_dir, name=image_name, show_labels=False)
     return results
 
@@ -36,7 +36,7 @@ if uploaded_file is not None:
     save_dir = os.path.join('yolov8_predictions', image_name)
     os.makedirs(save_dir, exist_ok=True)
 
-    results = detect_fractures(tmpfile_path, save_dir, image_name)
+    results = detect(tmpfile_path, save_dir, image_name)
     
     shutil.rmtree('yolov8_predictions')
     os.unlink(tmpfile_path)
