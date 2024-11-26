@@ -42,9 +42,20 @@ The model is trained on a dataset sourced from [Roboflow](https://universe.robof
 
 ## Model Architecture  
 **YOLOv8n** is chosen for its balance between performance and computational efficiency. The model was trained with the following parameters:  
-- **Epochs**: *[Specify]*  
-- **Batch Size**: *[Specify]*  
-- **Learning Rate**: *[Specify]*  
-- **Framework**: PyTorch  
+- **Epochs**: *32*  
+- **Batch Size**: *32*  
+- **Learning Rate**: *0.001*  
+- **Framework**: Ultralytics (YOLO)  
 
 Trained weights are included in the `weights` directory for replication or deployment.
+
+---
+
+## Installation  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/<username>/UroVision.git
+   cd UroVision
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
