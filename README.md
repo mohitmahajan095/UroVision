@@ -54,8 +54,45 @@ Trained weights are included in the `weights` directory for replication or deplo
 ## Installation  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/<username>/UroVision.git
-   cd UroVision
+   git clone https://github.com/mohitmahajan095/UroVision_-Kidney_Stone_Dection_System-.git
+   cd UroVision_-Kidney_Stone_Dection_System-
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
+
+3. Run the Streamlit app:
+   ```bash
+   streamlit run app.py
+
+---
+## Usage
+1. Launch the Streamlit app.
+2. Upload an ultrasound image via the interface.
+3. View the detected kidney stones with bounding boxes and confidence scores.
+
+---
+
+## Results
+The system achieved the following metrics on the validation dataset:
+
+Precision: 84.4%
+Recall: 70.3%
+F1-Score: 0.77 at 0.378
+Visual outputs:
+
+Precision-Recall Curve
+![PR-Curve](https://github.com/mohitmahajan095/UroVision_-Kidney_Stone_Dection_System-/blob/main/Model/PR_curve.png?raw=true)
+
+F1-Score Curve
+![F1-Score Curve](https://github.com/mohitmahajan095/UroVision_-Kidney_Stone_Dection_System-/blob/main/Model/F1_curve.png?raw=true)
+
+Confusion Matrix
+![Confusion Matrix](https://github.com/mohitmahajan095/UroVision_-Kidney_Stone_Dection_System-/blob/main/Model/confusion_matrix.png?raw=true)
+
+Sample Predictions:
+   val_labels:
+   ![True Labels & Bounding Boxes](https://github.com/mohitmahajan095/UroVision_-Kidney_Stone_Dection_System-/blob/main/Model/val_batch1_labels.jpg?raw=true)
+   
+   val_prediction:
+   ![Predicted Labels & Bounding Boxes](https://github.com/mohitmahajan095/UroVision_-Kidney_Stone_Dection_System-/blob/main/Model/val_batch1_pred.jpg?raw=true)
+   
