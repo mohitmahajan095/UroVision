@@ -65,6 +65,7 @@ Trained weights are included in the `weights` directory for replication or deplo
    streamlit run app.py
 
 ---
+
 ## Usage
 1. Launch the Streamlit app.
 2. Upload an ultrasound image via the interface.
@@ -73,29 +74,54 @@ Trained weights are included in the `weights` directory for replication or deplo
 ---
 
 ## Results
-The system achieved the following metrics on the validation dataset:
+The system achieved the following metrics:
 
-Precision: 84.4%
+**Precision:** 84.4%
 
-Recall: 70.3%
+**Recall:** 70.3%
 
-F1-Score: 0.77 at 0.378
+**F1-Score:** 0.77 at 0.378
+
+### 1) Results
+![Results](https://github.com/mohitmahajan095/UroVision_-Kidney_Stone_Dection_System-/blob/main/Model/results.png?raw=true)
+
+### 2) Precision-Recall Curve
+![PR-Curve](https://github.com/mohitmahajan095/UroVision_-Kidney_Stone_Dection_System-/blob/main/Model/PR_curve.png?raw=true)
+
+### 3) F1-Score Curve
+![F1-Score Curve](https://github.com/mohitmahajan095/UroVision_-Kidney_Stone_Dection_System-/blob/main/Model/F1_curve.png?raw=true)
+
+### 4) Confusion Matrix
+![Confusion Matrix](https://github.com/mohitmahajan095/UroVision_-Kidney_Stone_Dection_System-/blob/main/Model/confusion_matrix.png?raw=true)
+
+---
 
 ## Visual outputs:
 
-Precision-Recall Curve
-![PR-Curve](https://github.com/mohitmahajan095/UroVision_-Kidney_Stone_Dection_System-/blob/main/Model/PR_curve.png?raw=true)
-
-F1-Score Curve
-![F1-Score Curve](https://github.com/mohitmahajan095/UroVision_-Kidney_Stone_Dection_System-/blob/main/Model/F1_curve.png?raw=true)
-
-Confusion Matrix
-![Confusion Matrix](https://github.com/mohitmahajan095/UroVision_-Kidney_Stone_Dection_System-/blob/main/Model/confusion_matrix.png?raw=true)
-
-Sample Predictions:
-   val_labels:
+### Sample Predictions:
+   #### 1) val_labels:
    ![True Labels & Bounding Boxes](https://github.com/mohitmahajan095/UroVision_-Kidney_Stone_Dection_System-/blob/main/Model/val_batch1_labels.jpg?raw=true)
    
-   val_prediction:
+   #### 2) val_prediction:
    ![Predicted Labels & Bounding Boxes](https://github.com/mohitmahajan095/UroVision_-Kidney_Stone_Dection_System-/blob/main/Model/val_batch1_pred.jpg?raw=true)
-   
+
+---
+
+## Challenges and Future Work
+**Challenges:**
+1. Limited dataset size.
+2. Handling edge cases with complex imaging artifacts.
+
+**Future Work:**
+1. Integration with cloud platforms for scalability.
+2. Expanding the dataset to improve robustness.
+
+---
+
+## Contributors
+1. [Mohit Mahajan](https://github.com/mohitmahajan095) (Team Leader)
+2. [Mahadev Ambre](https://github.com/MahadevAmbre)
+3. Kalpesh Patil
+4. Ishwari Bhosale
+5. Gauri Gawali
+6. Shweta Shelke
