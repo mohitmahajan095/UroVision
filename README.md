@@ -69,7 +69,7 @@ Trained weights are included in the `weights` directory for replication or deplo
 
 ## Usage
 1. Launch the Streamlit app.
-2. Upload an ultrasound image via the interface.
+2. Upload an MRI image of Kidney via the interface.
 3. View the detected kidney stones with bounding boxes and confidence scores.
 
 ---
