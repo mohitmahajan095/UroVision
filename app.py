@@ -7,7 +7,8 @@ import tempfile
 import os
 import shutil
 
-model = YOLO(r"Model\weights\last.pt")
+PATH = os.path.dirname(__file__)
+model = YOLO(PATH + "Model/weights/last.pt")
 
 def detect_fractures(image_path, save_dir, image_name):
     results = model(image_path, save=True, save_dir=save_dir, name=image_name, show_labels=False)
