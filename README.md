@@ -76,9 +76,12 @@ Trained weights are included in the `weights` directory for replication or deplo
 The system achieved the following metrics on the validation dataset:
 
 Precision: 84.4%
+
 Recall: 70.3%
+
 F1-Score: 0.77 at 0.378
-Visual outputs:
+
+## Visual outputs:
 
 Precision-Recall Curve
 ![PR-Curve](https://github.com/mohitmahajan095/UroVision_-Kidney_Stone_Dection_System-/blob/main/Model/PR_curve.png?raw=true)
