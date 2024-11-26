@@ -54,8 +54,9 @@ Trained weights are included in the `weights` directory for replication or deplo
 ## Installation  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/mohitmahajan095/UroVision_-Kidney_Stone_Dection_System-.git
-   cd UroVision_-Kidney_Stone_Dection_System-
+   git clone https://github.com/mohitmahajan095/UroVision.git
+   cd UroVision
+   
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
