@@ -109,14 +109,10 @@ The system achieved the following metrics:
 
 ---
 
-## Challenges and Future Work
+## Challenges
 **Challenges:**
 1. Limited dataset size.
 2. Handling edge cases with complex imaging artifacts.
-
-**Future Work:**
-1. Integration with cloud platforms for scalability.
-2. Expanding the dataset to improve robustness.
 
 ---
 
