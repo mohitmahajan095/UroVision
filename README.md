@@ -110,7 +110,6 @@ The system achieved the following metrics:
 ---
 
 ## Challenges
-**Challenges:**
 1. Limited dataset size.
 2. Handling edge cases with complex imaging artifacts.
 
